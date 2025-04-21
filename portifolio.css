@@ -1,0 +1,648 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/tropical-praia-sundown-horizonte-paisagem-vetor.jpg);
+    background-size: cover;
+    height: 1200px;
+}
+
+/*---BARRA---*/
+
+.barra {
+    position: absolute;
+    width: 100%;
+    padding: 75px;
+    background-color: rgba(128, 128, 128, 0.214);
+    z-index: 9;
+}
+
+.name {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    position: absolute;
+    right: 25px;
+    display: flex;
+    flex-direction: row;
+    pointer-events: none;
+}
+
+.name1 {
+    position: relative;
+    color: white;
+}
+
+.name2 {
+    position: relative;
+    left: 15px;
+    color: aqua;
+}
+
+/*---FUNDO---*/
+
+.box {
+    width: 100%;
+    height: 589px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.577);
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+
+.box2 {
+    position:absolute;
+    width: 100%;
+    height: 1200px;
+    background-color: rgba(26, 26, 26, 0.988);
+    top: 100%;
+    z-index: -1;
+}
+
+/*---CAT---*/
+
+.barra_cat {
+    position: fixed;
+    bottom: 0;
+    right: 5px;
+    width: 35%;
+    height: 75px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.482);
+    z-index: 9;
+}
+
+.categorias {
+    position: absolute;
+    left: 5%;
+    top: 32%;
+}
+
+.cat1 {
+    color: whitesmoke;
+    background-color: rgb(136, 66, 206);
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+    position: absolute;
+    left: 15px;
+    width: 75px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.cat1:hover {
+    color: whitesmoke;
+    background-color: rgb(153, 131, 5);
+    border: 1px solid rgb(255, 248, 248);
+}
+
+.tCat1 {
+    font-family: Arial, 'Open Sans';
+    font-weight: bolder;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.cat2 {
+    color: whitesmoke;
+    background-color: rgb(136, 66, 206);
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+    position: absolute;
+    left: 100px;
+    width: 120px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.cat2:hover {
+    color: whitesmoke;
+    background-color: rgb(153, 131, 5);
+    border: 1px solid rgb(255, 248, 248);
+}
+
+.tCat2 {
+    font-family: Arial, 'Open Sans';
+    font-weight: bolder;
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    width: 150px;
+}
+
+
+.cat3 {
+    color: whitesmoke;
+    background-color: rgb(136, 66, 206);
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+    position: absolute;
+    left: 230px;
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.cat3:hover {
+    color: whitesmoke;
+    background-color: rgb(153, 131, 5);
+    border: 1px solid rgb(255, 248, 248);
+}
+
+.tCat3 {
+    font-family: Arial, 'Open Sans';
+    font-weight: bolder;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.cat4 {
+    color: whitesmoke;
+    background-color: rgb(136, 66, 206);
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+    position: absolute;
+    left: 340px;
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.cat4:hover {
+    color: whitesmoke;
+    background-color: rgb(153, 131, 5);
+    border: 1px solid rgb(255, 248, 248);
+}
+
+.tCat4 {
+    font-family: Arial, 'Open Sans';
+    font-weight: bolder;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.clickCat {
+    color: whitesmoke;
+    background-color: rgb(153, 131, 5);
+    border: 1px solid rgb(255, 248, 248);
+}
+
+/*---TELA_A---*/
+
+
+
+.intA {
+    border-radius: 5px 5px 5px 5px;
+    width: 470px;
+    height: 300px;
+    background-color: rgba(128, 128, 128, 0.592);
+    position: absolute;
+    bottom: -400px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 2;
+}
+
+.html5 {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 150px;
+    height: 290px;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgba(0, 0, 0, 0.354);
+    cursor: pointer;
+}
+
+.html5:hover {
+    background-color: rgba(0, 0, 0, 0.705);
+    border: 2px solid white;
+}
+
+.img1 {
+    position: absolute;
+    right: 50%;
+    top: 25px;
+    transform: translate(50%);
+    width: 150px;
+    animation: move 900ms infinite ease;
+}
+
+.txt1 {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    color: white;
+    border-bottom: 1px solid white;
+    transform: translate(-50%);
+}
+
+.css3 {
+    position: absolute;
+    top: 5px;
+    left: 160px;
+    width: 150px;
+    height: 290px;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgba(0, 0, 0, 0.354);
+    cursor: pointer;
+}
+
+.css3:hover {
+    background-color: rgba(0, 0, 0, 0.705);
+    border: 2px solid white;
+}
+
+.img2 {
+    position: absolute;
+    right: 50%;
+    top: 15px;
+    transform: translate(50%);
+    width: 165px;
+    animation: move1 900ms infinite ease;
+}
+
+.txt2 {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    color: white;
+    border-bottom: 1px solid white;
+    transform: translate(-50%);
+}
+
+.js {
+    position: absolute;
+    top: 5px;
+    left: 315px;
+    width: 150px;
+    height: 290px;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgba(0, 0, 0, 0.354);
+    cursor: pointer;
+}
+
+.js:hover {
+    background-color: rgba(0, 0, 0, 0.705);
+    border: 2px solid white;
+}
+
+.img3 {
+    position: absolute;
+    right: 50%;
+    top: 25px;
+    transform: translate(50%);
+    width: 135px;
+    animation: move 900ms infinite ease;
+}
+
+.txt3 {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    color: white;
+    border-bottom: 1px solid white;
+    transform: translate(-50%);
+}
+
+
+
+@keyframes move {
+    0% {
+        top: 25px;
+    }
+    50% {
+        top: 15px;
+    }
+    100% {
+        top: 25px;
+    }
+    
+}
+
+@keyframes move1 {
+    0% {
+        top: 15px;
+    }
+    50% {
+        top: 10px;
+    }
+    100% {
+        top: 15px;
+    }
+    
+}
+
+/*---CONTATOS---*/
+
+.contatos {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 80px;
+    right: 0;
+    border: none;
+    width: 0px;
+    height: 75px;
+    background-color: rgba(128, 128, 128, 0.541);
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.open {
+    animation: Ab 300ms ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.close {
+    animation: Fe 300ms ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes Ab {
+    from {
+        width: 0;
+    }
+    to {
+        width: 65px;
+    }
+}
+
+@keyframes Fe {
+    from {
+        width: 65px;
+    }
+    to {
+        width: 0;
+    }
+}
+
+/*---TEXTOS---*/
+
+.scale1 {
+    background-color: rgba(128, 128, 128, 0.592);
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 20px 20px 20px 20px;
+    position: absolute;
+    left: 50%;
+    top: 250px;
+    transform: translate(-50%);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    width: 1200px;
+    height: 350px;
+}
+
+
+
+.apresentacao {
+    position: absolute;
+    left: 60px;
+    top: 5px;
+    transform: translate();
+    font-family: Arial, cursive;
+    font-size: 50px;
+    color: white;
+}
+
+.txtApr1 {
+    border: none;
+    position: absolute;
+    left: 5%;
+    top: 100px;
+    transform: translate();
+    font-family: Arial, cursive;
+    text-indent: 18px;
+    text-align: left;
+    font-size: 22px;
+    color: white;
+    width: 700px;
+}
+
+.txtApr2 {
+    border: none;
+    position: absolute;
+    left: 5%;
+    top: 170px;
+    transform: translate();
+    font-family: Arial, cursive;
+    text-indent: 18px;
+    text-align: left;
+    font-size: 22px;
+    color: white;
+    width: 700px;
+}
+
+.botao {
+    position: absolute;
+    top: 250px;
+    left: 5%;
+    transform: translate();
+    width: 100px;
+    height: 40px;
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+    background-color: rgb(136, 66, 206);
+    border: none;
+    box-shadow: 2px 2px 10px black;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: rgb(62, 31, 94);
+    border: 1px solid white;
+}
+
+.apresentacao a{
+    color: white;
+}
+
+.img4 {
+    position: absolute;
+    top: 0px;
+    right: 50px;
+    width: 300px;
+}
+
+
+
+.img5 {
+    position: absolute;
+    /*top: 255px;*/
+    top: 257px;
+    left: 600px;
+    width: 30px;
+}
+
+.img6 {
+    position: absolute;
+    top: 257px;
+    left: 645px;
+    width: 29px;
+}
+
+.img7 {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 30px;
+}
+
+.img8 {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 29px;
+}
+
+.img9 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+}
+
+.scale1  div {
+    position: absolute;
+    left: 5px;
+}
+
+/*---TEXTOS_2---*/
+
+.textos1 {
+    position: absolute;
+    top: 165%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 1000px;
+    height: 300px;
+    color: white;
+    border: 1px solid white;
+}
+
+.my {
+    position: absolute;
+    left: 25px;
+    font-size: 50px;
+    font-family: Arial, cursive;
+}
+
+.txtSm1 {
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    font-size: 22px;
+}
+
+.txtSm2 {
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    font-size: 22px;
+}
+
+.txtSm3 {
+    position: absolute;
+    left: 50px;
+    top: 200px;
+    font-size: 22px;
+}
+
+.txtSm4 {
+    position: absolute;
+    left: 50px;
+    top: 250px;
+    font-size: 22px;
+}
+
+
+
+.textos1 {
+    position: absolute;
+    top: 165%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 1000px;
+    height: 300px;
+    color: white;
+    border: 1px solid white;
+}
+
+.textos2 {
+    position: absolute;
+    top: 215%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 1000px;
+    height: 300px;
+    color: white;
+    border: 1px solid white;
+}
+
+.pj {
+    position: absolute;
+    left: 25px;
+    font-size: 50px;
+    font-family: Arial, cursive;
+}
+
+.projets {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 75px;
+    top: 100px;
+    transform: translate();
+}
+
+.projets div{
+    border-radius: 8px 8px 8px 8px;
+    width: 175px;
+    height: 175px;
+    background-color: rgb(128, 128, 128);
+    margin-left: 20px;
+}
+
+.projet {
+    cursor: pointer;
+}
+
+.img10 {
+    position: absolute;
+    left: 35px;
+    top: 13px;
+    width: 150px;
+}
+
+.img11 {
+    position: absolute;
+    left: 230px;
+    top: 13px;
+    width: 150px;
+}
+
+.img12 {
+    position: absolute;
+    left: 425px;
+    top: 13px;
+    width: 150px;
+}
