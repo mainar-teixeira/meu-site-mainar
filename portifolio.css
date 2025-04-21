@@ -10,6 +10,140 @@ body {
     height: 1200px;
 }
 
+@media screen and (max-width: 768px) {
+    body {
+        min-width: 360px;
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+
+    .barra_cat {
+        left: 50%;
+        transform: translate(-50%);
+        min-width: 100%;
+        overflow-x: scroll;
+    }
+
+    .barra_cat::-webkit-scrollbar{
+        height: 0;
+    }
+
+    .barra {
+        width: 180px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .name {
+        min-width: 100%;
+        right: 50%;
+        top: 50%;
+        transform: translate(24%, -50%);
+        
+    }
+
+    .name1 {
+        font-size: 35px;
+    }
+
+    .name2 {
+        font-size: 35px;
+    }
+
+    .apresentacao {
+        margin-left: 31%;
+    }
+
+
+
+    .img4 {
+        visibility: hidden;
+    } 
+
+   .scale1 {
+        background-color: rgba(128, 128, 128, 0.592);
+        border: 1px solid rgba(255, 255, 255, 0);
+        border-radius: 20px 20px 20px 20px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        min-width: 100%;
+        height: 350px;
+    }
+
+    .img5 {
+        transform: scale(1.5);
+        margin-left: -5%;
+        margin-top: 45px;
+    }
+
+    .img6 {
+        transform: scale(1.5);
+        margin-left: -25px;
+        margin-top: 45px;
+    }
+
+    .txtApr1 {
+       text-align: justify;
+       font-size: 12px;
+       margin-left: 33%;
+       width: 300px;
+    }
+    
+    .txtApr2 {
+       text-align: justify;
+       font-size: 12px;
+       margin-left: 33%;
+       margin-top: 18px;
+       width: 365px;
+    }
+    
+    .textos1 {
+        min-width: 324px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .my {
+        margin-left: 35%;
+    }
+
+    .txtSm1 {
+        margin-left: 28%;
+        margin-top: -20px;
+    }
+    .txtSm2 {
+        margin-left: 28%;
+        margin-top: -20px;
+    }
+
+    .txtSm3 {
+        margin-left: 28%;
+        margin-top: -20px;
+    }
+
+    .txtSm4 {
+        margin-left: 28%;
+        margin-top: -20px;
+        width: 300px;
+    }
+
+    .pj {
+        margin-left: 38%;
+    }
+
+    .textos2 {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        width: 100%;
+    }
+
+    .projet {
+        margin-left: 35%;
+        flex-direction: column;
+    }
+
+}
+
 /*---BARRA---*/
 
 .barra {
@@ -431,7 +565,7 @@ body {
     text-align: left;
     font-size: 22px;
     color: white;
-    width: 700px;
+    max-width: 700px;
 }
 
 .txtApr2 {
@@ -445,7 +579,7 @@ body {
     text-align: left;
     font-size: 22px;
     color: white;
-    width: 700px;
+    max-width: 700px;
 }
 
 .botao {
@@ -533,8 +667,8 @@ body {
     top: 165%;
     left: 50%;
     transform: translate(-50%);
-    width: 1000px;
-    height: 300px;
+    max-width: 1000px;
+    max-height: 300px;
     color: white;
     border: 1px solid white;
 }
@@ -609,9 +743,9 @@ body {
     display: flex;
     flex-direction: row;
     position: absolute;
-    left: 75px;
+    left: 50%;
     top: 100px;
-    transform: translate();
+    transform: translate(-50%);
 }
 
 .projets div{
