@@ -8,6 +8,8 @@ body {
     background-image: url(imgPort/tropical-praia-sundown-horizonte-paisagem-vetor.jpg);
     background-size: cover;
     height: 1200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 @media screen and (max-width: 768px) {
