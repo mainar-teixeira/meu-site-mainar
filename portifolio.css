@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}  
-
 body {
     background-image: url(imgPort/tropical-praia-sundown-horizonte-paisagem-vetor.jpg);
     background-size: cover;
