@@ -4,17 +4,23 @@
     box-sizing: border-box;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}  
+
 body {
     background-image: url(imgPort/tropical-praia-sundown-horizonte-paisagem-vetor.jpg);
     background-size: cover;
     height: 1200px;
+    max-width: 100%;
     overflow-y: scroll;
     overflow-x: hidden;
 }
 
 @media screen and (max-width: 768px) {
     body {
-        min-width: 360px;
+        min-width: 100%;
         overflow: scroll;
         overflow-x: hidden;
     }
