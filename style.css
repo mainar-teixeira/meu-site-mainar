@@ -7,10 +7,14 @@
 
 body {
     background-color: black;
-    overflow-x: hidden; 
 }
 
-@media screen and (max-width: 739px) {
+@media screen and (max-width: 768px) {
+    html, body {
+        width: 100% !important;
+        overflow-x: hidden !important;
+    }
+
     .itens {
         flex-wrap: wrap;
         justify-content: center;
@@ -18,8 +22,7 @@ body {
 
     .cash {
         position: relative;
-        margin-left: 50% !important;
-        transform: translate(-40%);
+        margin-left: 0 !important;
         border: 1px solid white;
     }
 
@@ -36,8 +39,10 @@ body {
         padding: 0 0  !important;
     }
 
+    
+
     .col1, .col2 {
-        padding-left: 12px;
+        padding-left: 0px;
         text-align: center;
         height: 204.5px !important;
     }
@@ -52,6 +57,7 @@ body {
 
     .a button {
         background-color: #bc3cd8 !important;
+        margin-top: 20px;
     }
 
     .a button:active {
@@ -67,9 +73,28 @@ body {
         order: 1;
     }
 
+    .title {
+        font-size: 35px !important;
+    }
+
     .title2 {
-        transform: scale(0.9);
+        margin-top: 25px !important;
+        font-size: 35px !important;
         text-align: center;
+    }
+
+    .title2 span {
+        font-size: 35px !important;
+    }
+
+    .svgs {
+        
+    }
+
+    .svgs svg {
+        margin-left: 5px !important;
+        transform: scale(0.7);
+        flex-direction: row !important;
     }
 
     .legenda {
@@ -100,6 +125,7 @@ body {
     }
 
     .description{
+        margin-top: 65px;
         width: 100% !important;
         order: 2;
     }
@@ -120,12 +146,17 @@ body {
 
     .seta2 {
         left: 90% !important;
-        top: 90% !important;
+        top: 95% !important;
     }
     
+    .text2, .text2 span {
+        font-size: 35px !important;
+    }
+
+
 }
 
-@media screen and (max-width: 844px){
+@media screen and (max-width: 944px){
     .a {
         order: 2;
     }
@@ -136,6 +167,10 @@ body {
 
     .legenda {
         visibility: hidden;
+    }
+
+    .a {
+        padding: 0 0 !important;
     }
 
     .horizontal {
@@ -446,20 +481,7 @@ li {
     font-weight: 500;
 }
 
-.col2 button{
-    font-family: poppins;
-    font-weight: 0;
-    position: relative;
-    width: 163px;
-    height: 40px;
-    border-radius: 20px;
-    border: 1px solid white;
-    background-color: black;
-    transition: 0.3;
-    cursor: pointer;
-}
-
-.col1 button{
+.a button{
     font-family: poppins;
     font-weight: 0;
     position: relative;
