@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <header onload="load()">
+    <nav class="itens">
+      <h2>Mainar Teixeira</h2>
+      <div class="cash">
+        <li class="cat">HOME</li>
+        <li class="cat">WORK</li>
+        <li class="cat">ABOUT</li>
+      </div>
+    </nav>
+  </header>
+
+  <body onload="load()">
+    <div class="content">
+      <p class="intro">
+        Eu sou um <span class="fragment1">Escritor</span> freelancer e estudante
+        de <span>Dev Front-end</span>
+      </p>
+    </div>
+    <div class="seta">
+      <svg
+        width="30"
+        height="30"
+        viewBox="0 0 60 30"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <polyline
+          points="5,5 30,25 55,5"
+          fill="none"
+          stroke="white"
+          stroke-width="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </div>
+
+    <div class="skills">
+      <div class="skill">
+        <p class="title">
+          Algumas das minhas habilidades na <span>criação de textos</span>
+        </p>
+        <div class="habillitty">
+          <div class="svgs">
+            <?xml version="1.0" encoding="utf-8"?>
+            <svg
+              width="100px"
+              height="100px"
+              viewBox="0 0 64 64"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              class="iconify iconify--emojione-monotone"
+              preserveAspectRatio="xMidYMid meet"
+            >
+              <path
+                d="M39.377 50.035H24.633c-.82 0-.82.859-.82.859c0 3.424 4.092 5.141 8.191 5.141c4.102 0 8.193-1.717 8.193-5.141c0 .001 0-.859-.82-.859"
+                fill="gray"
+              ></path>
+              <path
+                d="M25.629 34.375c0-.502-.103-.977-.269-1.421c.939.681 1.696 1.596 2.095 2.786c0-7.283-12.753-7.283-12.753-.906c.597-1.485 1.973-2.477 3.612-2.961a4.05 4.05 0 0 0-.878 2.502c0 2.264 1.837 4.1 4.101 4.1a4.099 4.099 0 0 0 4.092-4.1"
+                fill="gray"
+              ></path>
+              <path
+                d="M36.555 35.74c.398-1.191 1.156-2.106 2.096-2.787c-.166.444-.27.92-.27 1.422c0 2.264 1.836 4.1 4.09 4.1a4.1 4.1 0 0 0 4.102-4.1a4.05 4.05 0 0 0-.878-2.502c1.641.484 3.017 1.476 3.612 2.961c0-6.377-12.752-6.377-12.752.906"
+                fill="gray"
+              ></path>
+              <path
+                d="M32.004 47.035c3.344 0 5.018-3 3.344-3H28.66c-1.672 0 0 3 3.344 3"
+                fill="gray"
+              ></path>
+              <path
+                d="M57.371 26.165l.193-1.713l.332-2.969L60 19.406l-1.691-1.601l1.223-10.913L60 2.705l-3.545 2.398l-4.377 2.962l-.631-.604l-4.039-3.866l-1.414-1.354l-1.408 1.36l-4 3.866l-.107.104c-1.346-.224-2.751-.367-4.173-.477l-2.784-3.299L32.006 2l-1.519 1.796l-2.789 3.301a47.916 47.916 0 0 0-4.175.477l-.109-.105l-4-3.866L18 2.234l-1.414 1.367l-4 3.866l-.637.615l-4.404-2.978L4 2.705l.47 4.188l1.223 10.913L4 19.406l2.104 2.077l.332 2.969l.192 1.713h2.19a84.733 84.733 0 0 0-.38 5.599c-1.357.328-2.928 1.558-2.928 5.504c0 4.46 2.512 5.928 4.915 6.311c1.327 8.039 6.063 13.15 16.145 17.513c1.309.576 3.289.908 5.435.908s4.126-.332 5.429-.906c10.088-4.371 14.824-9.481 16.15-17.516c2.408-.384 4.924-1.852 4.924-6.311c0-3.955-1.582-5.183-2.947-5.507a85.503 85.503 0 0 0-.379-5.596h2.189zM46 4.969l4.039 3.866H48v.848c-1.525-.673-3.273-1.225-5.166-1.653L46 4.969m-28 0l3.169 3.062c-1.894.429-3.643.982-5.169 1.655v-.851h-2l4-3.866m38.508 32.299c0 2.908-1.194 4.288-3.873 4.474l-.814.056l-.105.781c-1.064 7.809-5.299 12.506-15.106 16.755c-1.041.459-2.762.733-4.604.733s-3.563-.274-4.61-.737c-9.8-4.24-14.033-8.937-15.099-16.751l-.106-.781l-.813-.056c-2.673-.185-3.865-1.564-3.865-4.474c0-2.438.617-3.675 1.832-3.675l.115.003c.171.891.378 1.544.628 1.982c.645 1.142 1.836 1.763 1.97 1.83l1.731.867l-.282-1.866c-.002-.017-.268-1.812-.167-4.248c.184-2.571.362-4.513.596-5.996H50.08c.232 1.483.41 3.426.592 5.997c.102 2.445-.164 4.229-.166 4.247l-.284 1.868l1.733-.869c.135-.067 1.329-.69 1.95-1.815c.259-.44.458-1.056.641-1.997c1.303-.063 1.962 1.157 1.962 3.672M8.393 24.243L6.425 6.685l7.87 5.326l-1.968 1.747v1.747h15.739v-1.747l-1.968-1.747l5.905-6.99l5.898 6.99l-1.967 1.747v1.747h15.738v-1.747l-1.968-1.747l7.87-5.326l-1.969 17.559H8.393z"
+                fill="gray"
+              ></path>
+              <path
+                d="M30 19.406l2.027 2.961L34 19.406l-1.973-2.838z"
+                fill="gray"
+              ></path>
+              <path
+                d="M12.334 19.406l2.031 2.961l1.969-2.961l-1.969-2.838z"
+                fill="gray"
+              ></path>
+              <path
+                d="M21.167 19.406l2.036 2.961l1.964-2.961l-1.964-2.838z"
+                fill="gray"
+              ></path>
+              <path
+                d="M38.834 19.406l2.035 2.961l1.965-2.961l-1.965-2.838z"
+                fill="gray"
+              ></path>
+              <path
+                d="M47.667 19.406l2.027 2.961l1.973-2.961l-1.973-2.838z"
+                fill="gray"
+              ></path>
+            </svg>
+
+            <?xml version="1.0" encoding="utf-8"?>
+            <svg
+              fill="gray"
+              width="100px"
+              height="100px"
+              viewBox="0 0 24 24"
+              id="roadmap-2"
+              data-name="Line Color"
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon line-color"
+            >
+              <line
+                id="secondary"
+                x1="12"
+                y1="7"
+                x2="12"
+                y2="12"
+                style="
+                  fill: none;
+                  stroke: gray;
+                  stroke-linecap: round;
+                  stroke-linejoin: round;
+                  stroke-width: 2;
+                "
+              ></line>
+              <polyline
+                id="secondary-2"
+                data-name="secondary"
+                points="14 14 19 14 19 17"
+                style="
+                  fill: none;
+                  stroke: gray;
+                  stroke-linecap: round;
+                  stroke-linejoin: round;
+                  stroke-width: 2;
+                "
+              ></polyline>
+              <polyline
+                id="secondary-3"
+                data-name="secondary"
+                points="5 17 5 14 10 14"
+                style="
+                  fill: none;
+                  stroke: gray;
+                  stroke-linecap: round;
+                  stroke-linejoin: round;
+                  stroke-width: 2;
+                "
+              ></polyline>
+              <path
+                id="primary"
+                d="M15,7V3H9V7Zm6,14V17H17v4ZM7,21V17H3v4Zm7-5V12H10v4Z"
+                style="
+                  fill: none;
+                  stroke: rgb(128, 128, 128);
+                  stroke-linecap: round;
+                  stroke-linejoin: round;
+                  stroke-width: 2;
+                "
+              ></path>
+            </svg>
+
+            <?xml version="1.0" encoding="utf-8"?>
+
+            <svg
+              version="1.1"
+              id="Layer_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="100px"
+              height="100px"
+              viewBox="0 0 32 32"
+              enable-background="new 0 0 32 32"
+              xml:space="preserve"
+            >
+              <g>
+                <path
+                  fill="#808080"
+                  d="M30.5,0h-29C0.673,0,0,0.673,0,1.5v8C0,10.327,0.673,11,1.5,11h29c0.827,0,1.5-0.673,1.5-1.5v-8
+		C32,0.673,31.327,0,30.5,0z M31,9.5c0,0.275-0.225,0.5-0.5,0.5h-29C1.225,10,1,9.775,1,9.5v-8C1,1.225,1.225,1,1.5,1h29
+		C30.775,1,31,1.225,31,1.5V9.5z"
+                />
+                <path
+                  fill="#808080"
+                  d="M31.5,12.5c-0.276,0-0.5,0.224-0.5,0.5v17.5c0,0.275-0.225,0.5-0.5,0.5h-29C1.225,31,1,30.775,1,30.5V13
+		c0-0.276-0.224-0.5-0.5-0.5S0,12.724,0,13v17.5C0,31.327,0.673,32,1.5,32h29c0.827,0,1.5-0.673,1.5-1.5V13
+		C32,12.724,31.776,12.5,31.5,12.5z"
+                />
+                <path
+                  fill="#808080"
+                  d="M13.5,27c0.827,0,1.5-0.673,1.5-1.5v-8c0-0.827-0.673-1.5-1.5-1.5h-8C4.673,16,4,16.673,4,17.5v8
+		C4,26.327,4.673,27,5.5,27H13.5z M5,25.5v-8C5,17.225,5.225,17,5.5,17h8c0.275,0,0.5,0.225,0.5,0.5v8c0,0.275-0.225,0.5-0.5,0.5h-8
+		C5.225,26,5,25.775,5,25.5z"
+                />
+                <path
+                  fill="#808080"
+                  d="M18,18h9c0.276,0,0.5-0.224,0.5-0.5S27.276,17,27,17h-9c-0.276,0-0.5,0.224-0.5,0.5S17.724,18,18,18z"
+                />
+                <path
+                  fill="#808080"
+                  d="M18,22h9c0.276,0,0.5-0.224,0.5-0.5S27.276,21,27,21h-9c-0.276,0-0.5,0.224-0.5,0.5S17.724,22,18,22z"
+                />
+                <path
+                  fill="#808080"
+                  d="M18,26h9c0.276,0,0.5-0.224,0.5-0.5S27.276,25,27,25h-9c-0.276,0-0.5,0.224-0.5,0.5S17.724,26,18,26z"
+                />
+              </g>
+            </svg>
+          </div>
+        </div>
+        <div class="legenda">
+          <p>StoryTelling</p>
+          <p>Roteiros</p>
+          <p>Blogs</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="work" id="work">
+      <p class="title2">Selecionar <span>Trabalhos</span></p>
+      <div class="card">
+        <div class="col1 c">
+          <img src="assets/img/história-criativa.jpeg" alt="" class="blog" />
+        </div>
+        <div class="col2 a">
+          <div class="conten1">
+            <p class="sub">HISTÓRIAS CRIATIVAS</p>
+            <p class="txt">
+              Escrevo <span>Histórias Criativas</span> desde 2023, mas sempre
+              tive jeito com histórias. Tenho trabalhos como
+              <span>"O Homem Profano" e "Espectro de júlio"</span>
+            </p>
+          </div>
+          <p class="category">Por Mainar Teixeira</p>
+          <button>VER TRABALHO <span>></span></button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="col1 a">
+          <div class="conten1">
+            <p class="sub">ROTEIROS</p>
+            <p class="txt">
+              Escrevo <span>Roteiros</span> caprichados - para vídeos curtos do
+              <span>Tik Tok</span>,<span> Instagram, dentre outros</span>. Tenho
+              trabalhos como
+              <span>"A chamada" e "O que está por trás do Veo 3?"</span>
+            </p>
+          </div>
+          <p class="category">Por Mainar Teixeira</p>
+          <button>VER TRABALHO <span>></span></button>
+        </div>
+        <div class="col2 c">
+          <img
+            src="https://img.freepik.com/vetores-gratis/pessoas-criando-filme_1262-20653.jpg?ga=GA1.1.19764164.1748377790&semt=ais_hybrid&w=740"
+            alt=""
+            class="blog"
+          />
+        </div>
+      </div>
+      <div class="card">
+        <div class="col1 c">
+          <img
+            src="https://img.freepik.com/fotos-gratis/blog-online_53876-123696.jpg?ga=GA1.1.19764164.1748377790&semt=ais_hybrid&w=740"
+            alt=""
+            class="blog"
+          />
+        </div>
+        <div class="col2 a">
+          <div class="conten1">
+            <p class="sub">BLOGS</p>
+            <p class="txt">
+              Não tenho <span>Blogs</span> definidos <span>"AINDA"!</span>, mas
+              posso montar uma estrutura ou até mesmo escrever(científico apenas
+              com teses mandadas pelo cliente). Por enquanto sem trabalhos
+            </p>
+          </div>
+          <p class="category">Por Mainar Teixeira</p>
+          <button>VER TRABALHO <span>></span></button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="col1 a">
+          <div class="conten1">
+            <p class="sub">SITES INSTITUCIONAIS</p>
+            <p class="txt">
+              Faço <span>Sites Institucionais</span> - apenas informativo para
+              contato. Projetos em breve, mas conte com esse site.
+            </p>
+          </div>
+          <p class="category">Por Mainar Teixeira</p>
+          <button>VER TRABALHO <span>></span></button>
+        </div>
+        <div class="col2 c">
+          <img
+            src="https://img.freepik.com/vetores-gratis/laptop-com-icone-de-codigo-isometrico-de-programa-desenvolvimento-de-software-e-aplicacoes-de-programacao-neon-escuro_39422-971.jpg?ga=GA1.1.19764164.1748377790&semt=ais_hybrid&w=740"
+            alt=""
+            class="blog"
+          />
+        </div>
+      </div>
+    </div>
+
+    <button class="seta2">
+      <svg
+        width="35"
+        height="35"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M12 4L6 10H10V20H14V10H18L12 4Z" fill="currentColor" />
+      </svg>
+    </button>
+
+    <div class="about" id="about">
+      <div class="wrapper">
+        <div class="description">
+          <p class="sobreMim">UM POUCO SOBRE MIM</p>
+          <p class="text">
+            Eu sou um escritor e estudante de Front-end
+            <span>focado em sites institucionais</span>. Eu amo
+            <span>música - principalmente rock-, jogos e filmes.</span> Tenho 18
+            anos e nasci na cidade de Euclides da Cunha, na Bahia. Garanto
+            compromisso e buscarei sua <span>confiança</span>.
+          </p>
+        </div>
+        <div class="horizontal">
+          <div class="colum1">
+            <div class="cover">
+              <img
+                src="https://img.freepik.com/fotos-gratis/maos-de-alto-angulo-segurando-o-controlador_23-2149829169.jpg?ga=GA1.1.19764164.1748377790&semt=ais_hybrid&w=740"
+                alt=""
+                class="lifestyle"
+              />
+            </div>
+          </div>
+          <div class="colum2">
+            <div class="cover">
+              <img
+                src="https://img.freepik.com/fotos-gratis/artista-tocando-violao-tiro-medio_23-2148751570.jpg?ga=GA1.1.19764164.1748377790&semt=ais_hybrid&w=740"
+                alt=""
+                class="lifestyle"
+              />
+            </div>
+            <div class="cover">
+              <img
+                src="https://img.freepik.com/fotos-gratis/renderizacao-3d-de-cinema_23-2151928707.jpg?ga=GA1.1.19764164.1748377790&semt=ais_hybrid&w=740"
+                alt=""
+                class="lifestyle"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+
+  <footer>
+    <div class="wrapper1">
+      <div class="text1">
+        <p class="text2">Entre <span>em Contato.</span></p>
+        <p class="descricao">Para que possamos conversar mais sobre...</p>
+      </div>
+      <div class="socialMedia">
+        <div class="icn">
+          <svg
+          fill="#8c8c8d"
+          width="48px"
+          height="48px"
+          viewBox="0 0 36 36"
+          version="1.1"
+          preserveAspectRatio="xMidYMid meet"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <title>email-solid</title>
+          <path
+            class="clr-i-solid clr-i-solid-path-1"
+            d="M32.33,6a2,2,0,0,0-.41,0h-28a2,2,0,0,0-.53.08L17.84,20.47Z"
+          ></path>
+          <path
+            class="clr-i-solid clr-i-solid-path-2"
+            d="M33.81,7.39,19.25,21.89a2,2,0,0,1-2.82,0L2,7.5a2,2,0,0,0-.07.5V28a2,2,0,0,0,2,2h28a2,2,0,0,0,2-2V8A2,2,0,0,0,33.81,7.39ZM5.3,28H3.91V26.57l7.27-7.21,1.41,1.41Zm26.61,0H30.51l-7.29-7.23,1.41-1.41,7.27,7.21Z"
+          ></path>
+          <rect x="0" y="0" width="36" height="36" fill-opacity="0" />
+        </svg>
+
+        <svg
+          fill="#8c8c8d"
+          width="48px"
+          height="48px"
+          viewBox="0 0 256 256"
+          id="Flat"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M160,128a32,32,0,1,1-32-32A32.03667,32.03667,0,0,1,160,128Zm68-44v88a56.06353,56.06353,0,0,1-56,56H84a56.06353,56.06353,0,0,1-56-56V84A56.06353,56.06353,0,0,1,84,28h88A56.06353,56.06353,0,0,1,228,84Zm-52,44a48,48,0,1,0-48,48A48.05436,48.05436,0,0,0,176,128Zm16-52a12,12,0,1,0-12,12A12,12,0,0,0,192,76Z"
+          />
+        </svg>
+
+        <svg
+          fill="#8c8c8d"
+          width="48px"
+          height="48px"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+          data-name="Layer 1"
+        >
+          <path
+            d="M12,2.2467A10.00042,10.00042,0,0,0,8.83752,21.73419c.5.08752.6875-.21247.6875-.475,0-.23749-.01251-1.025-.01251-1.86249C7,19.85919,6.35,18.78423,6.15,18.22173A3.636,3.636,0,0,0,5.125,16.8092c-.35-.1875-.85-.65-.01251-.66248A2.00117,2.00117,0,0,1,6.65,17.17169a2.13742,2.13742,0,0,0,2.91248.825A2.10376,2.10376,0,0,1,10.2,16.65923c-2.225-.25-4.55-1.11254-4.55-4.9375a3.89187,3.89187,0,0,1,1.025-2.6875,3.59373,3.59373,0,0,1,.1-2.65s.83747-.26251,2.75,1.025a9.42747,9.42747,0,0,1,5,0c1.91248-1.3,2.75-1.025,2.75-1.025a3.59323,3.59323,0,0,1,.1,2.65,3.869,3.869,0,0,1,1.025,2.6875c0,3.83747-2.33752,4.6875-4.5625,4.9375a2.36814,2.36814,0,0,1,.675,1.85c0,1.33752-.01251,2.41248-.01251,2.75,0,.26251.1875.575.6875.475A10.0053,10.0053,0,0,0,12,2.2467Z"
+          />
+        </svg>
+
+        <svg
+          fill="#8c8c8d"
+          width="48px"
+          height="48px"
+          viewBox="-2 -2 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="xMinYMin"
+          class="jam jam-linkedin"
+        >
+          <path
+            d="M19.959 11.719v7.379h-4.278v-6.885c0-1.73-.619-2.91-2.167-2.91-1.182 0-1.886.796-2.195 1.565-.113.275-.142.658-.142 1.043v7.187h-4.28s.058-11.66 0-12.869h4.28v1.824l-.028.042h.028v-.042c.568-.875 1.583-2.126 3.856-2.126 2.815 0 4.926 1.84 4.926 5.792zM2.421.026C.958.026 0 .986 0 2.249c0 1.235.93 2.224 2.365 2.224h.028c1.493 0 2.42-.989 2.42-2.224C4.787.986 3.887.026 2.422.026zM.254 19.098h4.278V6.229H.254v12.869z"
+          />
+        </svg>
+      </div>
+      </div>
+      <p class="final">Feito Com ❤️ por <span>Mainar Teixeira</span></p>
+    </div>
+  </footer>
+</html>
